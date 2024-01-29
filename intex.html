@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+       <div id="main">
+        <div data-scroll data-scroll-speed="-5" class="page1">
+            <nav>
+        <img src="data:image/jpeg;base64,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" alt="" srcset="">
+        <div class="nav-button">
+            <button>Book a Demo</button>
+            <button><i class="ri-menu-line"></i></button>
+        </div>
+            </nav>
+            <div class="page1contain">
+                <h1>Experience Real </h1>
+                <h1>Estate Agility</h1>
+                <div class="innercontain">
+                    <h6>Create a Digital Twin Token (DTT®) of your <br> existing building and release the potential of <br> Web3.</h6>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+            <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay muted loop></video>
+
+        </div>
+        <div class="page2">
+            <h2>CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</h2>
+            <h1>The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building’s components and systems essential information into a DTT®</h1>
+        </div>
+        <div class="page3">
+           <canvas></canvas>
+        </div>
+        <div class="page4">
+            <h2>CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</h2>
+            <h1>Users connect directly to the DTT® without any intermediaries. As Stakeholder, they have the power to upload and verify information that enriches the Digital Twin Token. A Stakeholder's ability to access validated-data to perform tasks depends on their specific role.</h1>
+        </div>
+        <div class="page5">
+            <canvas></canvas>
+        </div>
+        <div class="page6">
+            <h2>INCREASE YOUR DIGITAL TWIN TOKEN’S VALUE</h2>
+            <h1>DTT® data increases the value of your digital asset by lowering operational costs, improving energy use, assisting commercialization, and boosting the liquidity of your building.</h1>
+        </div>
+        <div class="page7">
+            <div class="page7-circle">
+                <div class="inner-circle"></div>
+            </div>
+            <canvas></canvas>
+        </div>
+        
+        <div class="page8">
+            <div class="page8-btm">
+            <h2>Magam DTT</h2>
+            <button>Learn More</button>
+        </div>
+            <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/glass/1.webm?2" loop autoplay muted></video>
+        </div>
+
+       <div class="page9">
+        <div class="page9left">
+            <h1>What is manga?</h1>
+        </div>
+        <div class="page9right">
+            <img src="https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg" alt="">
+        </div>
+       </div>
+   
+       <div class="page10">
+        <h3>Web3 platform</h3>
+        <h6>Magma is a Web3 platform for all real estate stakeholders, which provides users with the ability to manage interactions between physical and digital assets through unique, and collectively generated, 3D representations of their buildings.</h6>
+        <h3>The Digital Twin Token: The building’s unique digital copy</h3>
+        <h6>Magma uses blockchain technology to record essential data, which enables transparent, traceable, and immutable streams of information to be readily accessible to its users. Magma smart contracts are built with this blockchain data to expedite tasks like requests for proposals, lease agreements, and services arrangements.</h6>
+        <h3>An Index of digitization</h3>
+        <h6>The Magma Index provides valuable insight for decision-making regarding data-sharing, service-creating, and operational/environmental expectations.</h6>
+    </div>
+
+
+     <div class="page13">
+        <h1>Recent blog</h1>
+        <div class="page13-inner">
+            <div class="img"><img src="https://thisismagma.com/wp-content/uploads/2023/12/thisismagma.com-devenez-early-adopter-rejoignez-magma-en-tant-que-pionnier-de-limmobilier-digital-magma-early-adopter-program.png" alt=""></div>
+            <div class="inner-text">
+                <h3>ANNOUNCEMENTS / DEC 22, 2023</h3>
+                <p>Become an Early Adopter:join Magma as a pioneer in digital real estaate!</p>
+            </div>
+        </div>
+        <div class="page13-inner">
+            <div class="img"><img src="https://thisismagma.com/wp-content/uploads/2023/12/thisismagma.com-magma-bringing-bringin-tangible-value-to-nfts.jpeg" alt=""></div>
+            <div class="inner-text">
+                <h3>REAL ESTATE AND WEB3 / DEC 07,2023</h3>
+                <p>Magam - Bringing Tangible Value to NFTs in Real Estate</p>
+            </div>
+        </div>
+        <div class="page13-inner">
+            <div class="img"><img src="https://thisismagma.com/wp-content/uploads/2023/11/thisismagma.com-magma-welcomes-alejandro-laplana-to-its-advisory-board-screenshot-2023-11-30-at-13.43.46.png" alt=""></div>
+            <div class="inner-text">
+                <h3>ANNOUNCEMENTS / NOV 30, 2023</h3>
+                <p>Magma welcomes Alejandro Laplana to its Advisory Board</p>
+            </div>
+        </div>  
+        <button>View all <i class="ri-arrow-right-line"></i></button>
+     </div>
+
+    <div class="page15">
+    <h1>Become an <br>
+        early adopter</h1>
+        <button>BOOK A DEMO</button>
+    </div>
+    <div class="page16">
+        
+        <div class="page16inner">
+            <div class="inner"></div>
+            <h2>Twitter</h2>
+            <i class="ri-arrow-right-up-line"></i>
+        </div>
+        <div class="page16inner">
+            <div class="inner"></div>
+
+            <h2>Likedin</h2>
+            <i class="ri-arrow-right-up-line"></i>
+        </div>
+        <div class="page16inner">
+            <div class="inner"></div>
+
+            <h2>Instagram</h2>
+            <i class="ri-arrow-right-up-line"></i>
+        </div>
+    </div>
+
+       <div class="page17">
+        <div class="inner">
+            <ul>
+                <li>MISSION</li>
+                <li>PRODUCT</li>
+                <li>BLOG</li>
+                <li>FAQ</li>
+            </ul>
+            <ul>
+                <li>CONTART</li>
+                <li>PRIVACY POLICY</li>
+                <li>TEAMS</li>
+            </ul>
+            <div class="innersub">
+                <h1> Subscribe</h1>
+                <input type="text" placeholder="Email">
+            </div>
+        </div>
+        <h4>2024 BY MAGMA</h4>
+       </div>
+       </div>
+      
+     
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
